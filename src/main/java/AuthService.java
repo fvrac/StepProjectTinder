@@ -4,13 +4,14 @@ import java.util.Map;
 public class AuthService implements Auth {
   Map<String, String> data = new HashMap<>();
 
-  public AuthService() {
+  AuthService() {
     data.put("ali","123");
     data.put("alex","123");
     data.put("fred","123");
     data.put("shrek","123");
     data.put("don","123");
     data.put("admin","123");
+    data.put("admin@gmail.com","123");
   }
 
   @Override
